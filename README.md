@@ -10,7 +10,7 @@ and fill :
 2. Click on `ADD`, restart HA.
 
 ## Installation (manual)
-
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 1. Download last release.
 2. Unzip `grad_vol` folder into your HomeAssistant : `custom_components`
 3. Restart HA
