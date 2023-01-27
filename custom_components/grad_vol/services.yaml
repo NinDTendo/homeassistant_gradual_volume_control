@@ -1,7 +1,9 @@
 set_volume:
   name: Gradually set Volume
   description: Changes the volume gradually 
-  target: 
+  target:
+    entity:
+      domain: media_player 
   fields:
     volume: 
       name: Volume 
