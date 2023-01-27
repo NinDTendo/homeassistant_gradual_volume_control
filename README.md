@@ -1,5 +1,4 @@
-# homeassistant_gradual_volume_control
-[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+# homeassistant_gradual_volume_control  [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
  This integration provides a service to gradually change the volume of a mediaplayer over a given timespan
 ## Installation (with HACS)
 
