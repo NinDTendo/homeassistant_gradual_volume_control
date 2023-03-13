@@ -1,7 +1,7 @@
 {
     "domain": "grad_vol",
     "name": "Gradual Volume",
-    "version": "1.0.0"
+    "version": "1.0.0",
     "codeowners": ["@NinDTendo"],
     "dependencies": [],
     "documentation": "https://github.com/NinDTendo/homeassistant_gradual_volume_control/blob/main/README.md",
