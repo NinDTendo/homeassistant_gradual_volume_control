@@ -26,6 +26,10 @@ to use this integration.
 ## Usage
 
 Using a service-call, you can gradually change the volume to a target volume over a given timespan
+For example: I want to have the volume gradually increase to 80% over 20 seconds.
+The volume would be: 0.8
+duration: 20
+if the duration is not provided it will fall back to 5 seconds by default.
 
 example:
 ``` YAML
