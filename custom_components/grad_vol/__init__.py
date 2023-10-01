@@ -10,6 +10,8 @@ def setup(hass, config):
         target_volume= round(float(call.data.get('volume')),2)
         span = call.data.get('duration',5)
         for entity_id in entity_ids:
+            if hass.states.get(entity_id).state ==  'off':
+                continue 
             volume = round(float(hass.states.get(entity_id).attributes.get('volume_level')),2)
             if volume == None or abs(volume-target_volume) < 0.02: continue
             sleeptime = span/(abs(volume - target_volume)/0.01)
