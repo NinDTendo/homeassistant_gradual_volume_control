@@ -28,3 +28,9 @@ set_volume:
           max: 60
           step: 0.1
           mode: slider
+cancel_all:
+  name: Cancel all
+  description: Cancels all gradual volume changes of given entity
+  target:
+    entity:
+      domain: media_player
